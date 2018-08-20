@@ -2,14 +2,14 @@
 
 const postForm = {
     bindings: {
-        onSubmit: "&"
+        postForm: "&"
     },
     template: `
-    <form ng-submit="$ctrl.postForm({ newThought: $ctrl.thoughtInfo });">
+    <form ng-submit="$ctrl.postForm({ newThought: $ctrl.newThought });">
         <label>Title</label>
-        <input type="text" ng-model="$ctrl.thoughtInfo.title" placeholder="Post title">
+        <input type="text" ng-model="$ctrl.newThought.title" placeholder="Post title">
         <label>Thought</label>
-        <textarea ng-model="$ctrl.thoughtInfo.thought"></textarea>
+        <textarea ng-model="$ctrl.newThought.thought"></textarea>
         <button>Add Post</button>
     </form>
     `

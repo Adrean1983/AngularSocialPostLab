@@ -12,6 +12,7 @@ const post = {
             <h3>{{ $ctrl.posted.title }}<i class="material-icons" ng-click="$ctrl.deleteThought({ index: $ctrl.index });">clear</i></h3>
             <span>{{ $ctrl.posted.thought }}</span>
         </section>
+    </section>
     `
 };
 

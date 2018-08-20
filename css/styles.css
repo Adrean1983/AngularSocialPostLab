@@ -36,7 +36,7 @@ body {
 }
 
 .listcontainer {
-    width: 70%;
+    width: 400px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -70,7 +70,7 @@ form {
     display: flex;
     justify-content: center;
     align-content: center;
-    width: 50%;
+    width: 400px;
     background-color: #B1DDEA;
     height: 400px;
     border-radius: 5px;
